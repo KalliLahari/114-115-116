@@ -1,0 +1,28 @@
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 40px rgb(255, 52, 52);}
+    to{box-shadow: 1px 1px 40px palevioletred;}
+}
+
+.btn{
+    width: 100%;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+button{
+    background-color: deeppink;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    border-color: white;
+    border-radius: 14px;
+}
